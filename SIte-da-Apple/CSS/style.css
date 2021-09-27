@@ -13,6 +13,7 @@
     width: 100%;
     height: 44px;
     background-color: rgb(51, 51, 51, 0.980);
+    position: fixed;
 }
 
 /* Lista */
@@ -71,7 +72,7 @@ div span a{
 }
 
 .subtitulo{
-    font-size: 25px;
+    font-size: 27px;
     font-weight:normal ;
 }
 
@@ -81,12 +82,12 @@ div span a{
 }
 .div-dois{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #iphone13{
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     text-align: center;
     background-color: grey;
     background-image: url(../Img/img-div-dois.jpg);
@@ -99,4 +100,69 @@ div span a{
     font-size: 55px;
     font-weight: 600;
     padding-top: 40px;
+}
+
+.subtitulo2{
+    font-size: 25px;
+    font-weight:normal ;
+    color:rgb(235, 168, 201)
+}
+
+#smartwatch{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    background-color: grey;
+    background-image: url(../Img/img-div-tres.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+}
+
+#ipad{
+    height: 80vh;
+    text-align: center;
+    background-color: grey;
+    background-image: url(../Img/ipad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#imac{
+    height: 80vh;
+    text-align: center;
+    background-color: grey;
+    background-image: url(../Img/imac-fundo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#fitness{
+    height: 80vh;
+    text-align: center;
+    background-color: grey;
+    background-image: url(../Img/fitness.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#tv{
+    height: 80vh;
+    text-align: center;
+    background-color: grey;
+    background-image: url(../Img/tv2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tv1{
+    padding-top: 320px;   
+}
+
+#rodape{
+    height: 500px;
+    width: 100%;
+    background-color: #F5F5F7;
+    display: flex;
+    align-items: center;
 }
